@@ -209,11 +209,13 @@ hr {
 
 /* Page-specific */
 
-#headshot {
+#headshot img {
     margin-right: 20%;
     float: right;
     padding: 30px; 
     padding-bottom: 0px;
+    width: 210px;
+    height: 225px;
    
 }
 
