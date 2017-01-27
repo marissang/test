@@ -55,17 +55,17 @@ table {
 
 @font-face {
     font-family: heading;
-    src: url(fonts/audrey-normal.otf);
+    src: url(Fonts/Audrey-Normal.otf);
 }
 
 @font-face {
     font-family: bodytext;
-    src: url(fonts/domine-regular.ttf);
+    src: url(Fonts/Domine-Regular.ttf);
 }
 
 @font-face {
     font-family: name;
-    src: url(fonts/great-day-bold.ttf);
+    src: url(Fonts/Great-Day-Bold.ttf);
 }
 
 /* Links */
