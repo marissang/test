@@ -55,17 +55,17 @@ table {
 
 @font-face {
     font-family: heading;
-    src: url("Fonts/Audrey-Normal.otf");
+    src: url("fonts/Audrey-Normal.otf");
 }
 
 @font-face {
     font-family: bodytext;
-    src: url("Fonts/Domine-Regular.ttf");
+    src: url("fonts/Domine-Regular.ttf");
 }
 
 @font-face {
     font-family: name;
-    src: url("Fonts/Great-Day-Bold.ttf");
+    src: url("fonts/Great-Day-Bold.ttf");
 }
 
 /* Links */
@@ -223,6 +223,7 @@ hr {
     margin-left: auto;
 
 }
+
 .logos li {
     display: inline-block;
     vertical-align: middle;
@@ -234,8 +235,50 @@ hr {
     
 }
 
+/* Image Grid */
 
+.container {
+    margin: 0 auto;
+    max-width: 1130px;
+    padding: 0 1rem;
+    padding-top: 150px;
+    z-index: 5;
+    overflow: auto;
+}
 
+.responsive-image {
+    max-width: 100%;
+}
+
+.cell img {
+    display: block;
+}
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        width: calc(50% - 1.2rem);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        width: calc((100% / 3) - 1.2rem);
+    }
+}
+
+.cell {
+    margin: 0.6rem;
+}
 
 
 
