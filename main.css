@@ -54,17 +54,17 @@ table {
 /* Font styles */
 
 @font-face {
-    font-family: heading;
+    font-family: 'heading';
     src: url('fonts/Audrey-Normal.otf');
 }
 
 @font-face {
-    font-family: bodytext;
+    font-family: 'bodytext';
     src: url('fonts/Domine-Regular.ttf');
 }
 
 @font-face {
-    font-family: name;
+    font-family: 'name';
     src: url('fonts/Great-Day-Bold.ttf');
 }
 
