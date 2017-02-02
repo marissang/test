@@ -53,6 +53,33 @@ table {
 
 /* Font styles */
 
+
+@font-face {
+    font-family: 'heading';
+    src: url('fonts/audrey-normal-webfont.woff2') format('woff2'),
+         url('font/saudrey-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bodytext';
+    src: url('fonts/domine-regular-webfont.woff2') format('woff2'),
+         url('fonts/domine-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'name';
+    src: url('fonts/great-day-bold-webfont.woff2') format('woff2'),
+         url('fonts/great-day-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+
 @font-face {
     font-family: 'heading';
     src: url('fonts/Audrey-Normal.OTF') format('opentype');
@@ -67,6 +94,9 @@ table {
     font-family: 'name';
     src: url('fonts/Great-Day-Bold.TTF') format('truetype');
 }
+
+*/
+
 
 /* Links */
 
