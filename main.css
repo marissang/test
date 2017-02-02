@@ -55,17 +55,17 @@ table {
 
 @font-face {
     font-family: 'heading';
-    src: url('fonts/Audrey-Normal.otf') format('opentype');
+    src: url('fonts/Audrey-Normal.OTF') format('opentype');
 }
 
 @font-face {
     font-family: 'bodytext';
-    src: url('fonts/Domine-Regular.ttf') format('truetype');
+    src: url('fonts/Domine-Regular.TTF') format('truetype');
 }
 
 @font-face {
     font-family: 'name';
-    src: url('fonts/Great-Day-Bold.ttf') format('truetype');
+    src: url('fonts/Great-Day-Bold.TTF') format('truetype');
 }
 
 /* Links */
